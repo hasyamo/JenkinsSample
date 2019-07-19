@@ -33,8 +33,8 @@ public class HealthCheck {
             // bodyType = bodyType.replace("低体重", "痩せ型");
         } else if (bmi < BMI_NORMAL_UPPER_LIMIT) {
             bodyType = "普通体重";
-        } else if (bmi >= BMI_OBESE_LOWER_LIMIT) {
-            bodyType = "肥満（4度）";
+//        } else if (bmi >= BMI_OBESE_LOWER_LIMIT) {
+//            bodyType = "肥満（4度）";
         } else {
             bodyType = "肥満";
         }
