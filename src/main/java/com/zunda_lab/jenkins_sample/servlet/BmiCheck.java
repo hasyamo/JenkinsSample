@@ -56,7 +56,7 @@ public class BmiCheck  extends HttpServlet {
         String height = req.getParameter("height");
 
         BmiBean health = new BmiBean();
-        health.setHeight(Double.parseDouble(height))
+        health.setHeight(Double.parseDouble(height));
         health.setWeight(Double.parseDouble(weight));
 
         HealthCheck healthCheck = new HealthCheck();
